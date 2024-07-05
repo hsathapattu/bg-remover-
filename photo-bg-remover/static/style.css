@@ -1,0 +1,78 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #000000 !important; /* Changed to black */
+    color: #ffffff; /* Changed text color to white */
+    padding: 1rem;
+}
+
+.card-header h2 {
+    color: #ffffff; /* Ensure the text is white */
+}
+
+h1, h2 {
+    color: #343a40;
+}
+
+img.logo {
+    max-width: 100px;
+    height: auto;
+}
+
+form {
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    border: none;
+}
+
+.alert {
+    margin-top: 20px;
+}
+
+.border {
+    border: 2px solid #dee2e6;
+    padding: 10px;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+#selection-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
